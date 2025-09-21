@@ -35,5 +35,14 @@ class DataTypes {
         System.out.println("Integer Size: " + Integer.MAX_VALUE);
         System.out.println("Long Min Value: " + Long.MIN_VALUE);
         System.out.println("Long Max Value: " + Long.MAX_VALUE);
+
+        int[] arr;
+        arr = new int[5];
+        arr[0] = 7;
+        arr[3] = 77;
+        System.out.println("Array");
+        for(int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
     }    
 }
