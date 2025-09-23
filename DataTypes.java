@@ -13,7 +13,14 @@ class DataTypes {
         Boolean e = false;
         Boolean f = true;
         long g = 1231213132;
+        String name = "   Seshu Yaswanth Reddy   ";
 
+        System.out.println("Name: " + name.toLowerCase());
+        System.out.println("Name: " + name.length());
+        System.out.println("Index of \"Yaswanth\": " + name.indexOf("Yaswanth"));
+        System.out.println("Char at: " + name.charAt(name.length() - 1));
+        System.out.println("Equals: " + name.equals("Sesu Yaswanth Reddy"));
+        System.out.println(name.trim());
         System.out.println("int: " + a);
         System.out.println("byte: " + aa);
         System.out.println("short: " + aaa);
