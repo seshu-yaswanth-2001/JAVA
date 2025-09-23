@@ -1,3 +1,11 @@
+// methods - methods are nothing but functions
+// syntax - static void function_name(){} (or) static int function_name() {}
+// if void is used method or function can't return anything
+// to return from method we need to use any datatype that is returning,
+// for example: 
+// 1) a + b = number => then use (static int function_name(int ...., int ....) {}) 
+// 2) (static string function_name(String ...., String ....))
+
 public class Methods {
     static void addition(int num1, int num2) {
         System.err.println(num1 + num2);
